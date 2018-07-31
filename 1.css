@@ -1,0 +1,30 @@
+
+.basicinf,
+.connection{
+    font-size: 0;
+    list-style: none;
+}
+.basicinf li,
+.connection li{
+       float: left; 
+       margin-right: 1em;
+       margin-bottom: 1em;
+       font-size: 16px;
+}
+
+/* .connection{
+    list-style: none;
+}
+
+.connection li{
+    display: inline;
+} */
+
+span{
+    margin-right: 1em;
+    font-weight: bold;
+}
+
+h2{
+    clear: both;
+}
