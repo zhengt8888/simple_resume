@@ -1,0 +1,64 @@
+h1{
+    margin-bottom: 0;
+    padding: 20px 0 20px 30px;
+    font-size: 16px;
+    font-weight: 900;
+    background-color: rgb(63, 62, 62);
+    color: white;
+}
+
+h2{
+    float: left;
+    margin :0;
+    width: 8em;
+    height: 1em;
+    padding:3.5em 0 calc(3.5em - 2px) 0;
+    text-align: center;
+    font-size: 1em;
+    background-color: rgb(216, 216, 216);
+    /* overflow: hidden; */
+}
+.con2{
+    float: left;
+    margin: 0;
+    border-bottom-color: rgb(216, 216, 216);
+    border-bottom-style: solid;
+    padding: 0;
+    height: 8em;
+    width: 90%;
+    font-size: 16px;
+}
+
+.basicinf,
+.connection{
+    margin : 20px;
+    padding : 0;
+    font-size: 0;     /* 为了去掉li间的间隔 */
+    list-style: none;
+}
+.basicinf li,
+.connection li{
+       float: left; 
+       margin-right: 2em;
+       margin-bottom: 1em;
+       font-size: 16px;
+}
+span{
+    margin-right: 1em;
+    font-weight: bold;
+}
+
+h3{ 
+    float: left;
+    margin: 20px 0 20px 20px;
+    font-size: 16px;
+    clear: left;
+}
+
+h3 + p{
+    /* display: none; */
+    margin: 20px 0 20px 0;
+    border: 0ch;
+    padding: 0%;
+    float: left;
+}
